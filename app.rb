@@ -1,9 +1,7 @@
 require 'sinatra'
 
-get '/' do
-  'hoorah!'
-end
-
-get '/secret' do
-  'secret message'
+get '/cat' do
+  "<div>
+  <img src='http://bit.ly/1eze8aE'>
+  </div>"
 end
